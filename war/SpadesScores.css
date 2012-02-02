@@ -1,0 +1,109 @@
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.scoreReportFlexTable {
+	padding: 10px;
+	border: 1px solid silver;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: large;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.roundedCornersBorder {
+	padding: 3px, 5px;
+	border: 1px solid silver;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.roundedCornersBorderWithGradient {
+	padding: 3px, 5px;
+	border: 1px solid silver;
+	border-radius: 4px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+ 	background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightgrey)); 
+}
+
+.center {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.roundedCornersBorder button {
+  border: 1px solid silver;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightgrey)); 
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: small;
+  cursor: pointer;
+  cursor: hand;
+  border: 1px outset #ccc;
+}
+
+.roundedCornersBorder button:active {
+  border: 1px inset #ccc;
+}
+
+.roundedCornersBorder button:hover {
+  border-color: #9cf #69e #69e #7af;
+}
+
+.FlexTable {
+  border: 1px solid silver;
+  padding: 2px;
+  width: 400px;
+  font-size: large;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.team1FlexTableHeader {
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(maroon));
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+}
+
+.team2FlexTableHeader {
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(darkblue));
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+  font-size: large;
+}
+.winnerLabel {
+	color: Red;
+	font-size: 36px;
+	font-family: Arial Black;
+	text-align: center;
+	cursor: pointer;
+}
+
+.analysisFlexTableHeader {
+  background: -webkit-gradient(linear, left top, left bottom, from(green), to(darkgreen));
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  width: 400px;
+}
+.nameLabel {
+	font-size: 24px;
+	font-weight: bold;
+}
